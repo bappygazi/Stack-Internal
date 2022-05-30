@@ -1,0 +1,295 @@
+// navbar part css //
+.navbar {
+  .offcanvas {
+    .offcanvas-body {
+
+      .navbar-nav {
+        .nav-item {
+          .nav-link {
+            color: #ffffff;
+            font-size: 30px;
+            font-weight: 400;
+
+            &.active,
+            &:hover {
+              color: #EFB43E;
+            }
+          }
+        }
+      }
+
+      .contact__content {
+        .mail__phone {
+          ul {
+            li {
+              font-size: 18px;
+
+              a {
+                color: #ffffff;
+              }
+            }
+          }
+        }
+
+        .social__media {
+          a {
+            i {
+              color: #ffffff;
+              font-size: 25px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+
+      .lion_item {
+        margin-bottom: 30px;
+
+        a {
+          color: #ffffff;
+          font-size: 16px;
+          text-transform: uppercase;
+          background-color: #EFB43E;
+        }
+      }
+    }
+  }
+}
+
+// navbar part css //
+#hero {
+  .hero__content {
+
+    a {
+      color: #ffffff;
+      font-size: 16px;
+      text-transform: uppercase;
+      background-color: #EFB43E;
+
+    }
+
+    @media (max-width: 768px) {
+      a {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// workplace part css //
+#workplace {
+  .workplace__text {
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    p {
+      font-weight: 400;
+      font-size: 30px;
+    }
+
+    @media (max-width: 768px) {
+      p {
+        font-size: 21px;
+      }
+    }
+
+    a {
+      font-size: 16px;
+      font-weight: 600;
+
+      i {
+        color: #EFB43E;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .our__projects-carousel {
+    .owl-carousel {
+      .project__item {
+        h5 {
+          left: 30px;
+          bottom: 25px;
+          font-size: 30px;
+          font-weight: 600;
+        }
+      }
+
+      .owl-nav {
+
+        .owl-next,
+        .owl-prev {
+          font-size: 25px;
+        }
+      }
+    }
+  }
+}
+
+// service part css //
+#service {
+  .service__text {
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    h3 {
+      font-size: 40px;
+      font-weight: 400;
+    }
+
+    @media (max-width: 768px) {
+      h3 {
+        font-size: 35px;
+      }
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    a {
+      font-size: 16px;
+      font-weight: 600;
+      padding-top: 40px;
+      padding-left: 33%;
+
+
+      i {
+        color: #EFB43E;
+        font-size: 15px;
+      }
+    }
+
+    @media (max-width: 768px) {
+      a {
+        padding-bottom: 50px;
+        padding-left: 0;
+      }
+    }
+  }
+
+  .service__items-carousel {
+    .owl-carousel {
+      .item {
+        .service__item {
+          .service__item-line {
+            h5 {
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+
+    .owl-nav {
+
+      .owl-next,
+      .owl-prev {
+
+        i {
+          padding-top: 3px;
+          font-size: 25px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+// Dave Davidson part css //
+#dave__davidson {
+  .owl-carousel {
+    .item {
+      .content__name {
+        h4 {
+          font-size: 18px;
+          font-weight: 700;
+          font-family: "Montserrat", sans-serif;
+        }
+      }
+    }
+
+    .owl-nav {
+
+      .owl-next,
+      .owl-prev {
+
+        i {
+          padding-top: 4px;
+          font-size: 25px;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
+// footer part css //
+#footer {
+  .footer__logo {
+    h6 {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: "Inter", sans-serif;
+    }
+
+    h3 {
+      font-size: 46px;
+      font-weight: 400;
+      line-height: 56px;
+      font-family: "Inter", sans-serif;
+
+      i {
+        font-size: 35px;
+        color: #EFB43E;
+      }
+    }
+  }
+
+  .footer__text {
+    h4 {
+      font-size: 20px;
+      font-weight: 700;
+      font-family: "Inter", sans-serif;
+
+    }
+
+    ul {
+      li {
+        strong {
+          font-weight: 700;
+        }
+
+        a {
+          font-size: 16px;
+          font-weight: 400;
+          font-family: "Inter", sans-serif;
+        }
+      }
+    }
+
+    .social__icon {
+      a {
+        i {
+          font-size: 20px;
+        }
+      }
+    }
+
+    p {
+      font-size: 16px;
+      padding-top: 45px;
+    }
+
+    small {
+      font-size: 16px;
+      font-family: "Montserrat", sans-serif;
+    }
+  }
+}

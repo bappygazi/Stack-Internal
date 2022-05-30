@@ -1,0 +1,368 @@
+// hero part css 
+#hero {
+  padding: 100px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../images/hero__banner.png);
+
+  .bottom__logo {
+    bottom: 65px;
+
+    @media (max-width: 768px) {
+      img {
+        width: 97%;
+      }
+    }
+  }
+
+  .hero__content-img-back {
+    z-index: 1 !important;
+  }
+
+  .hero__content {
+    z-index: 10;
+  }
+}
+
+// workplace part css //
+#workplace {
+  padding-top: 150px;
+  padding-bottom: 100px;
+  background-color: #111111;
+
+  .workplace__text {
+    padding-bottom: 150px;
+  }
+
+  @media (max-width: 768px) {
+    .workplace__text {
+      padding-bottom: 80px;
+    }
+  }
+
+  .our__projects-carousel {
+    .owl-carousel {
+      .item {
+        .project__item {
+          &::after {
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            content: '';
+            position: absolute;
+            transform: rotate(-180deg);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+          }
+
+          h5 {
+            z-index: 1;
+          }
+        }
+      }
+
+      .owl-nav {
+        top: 45%;
+        left: 50%;
+        margin-top: 0;
+        width: 100%;
+        position: absolute;
+        transform: translate(-50%, 50%);
+
+        .owl-next,
+        .owl-prev {
+          width: 50px;
+          height: 50px;
+          color: #111111;
+          border-radius: 50%;
+          border: 2px solid #ffffff;
+          background-color: #ffffff;
+
+          &:hover {
+            color: #ffffff;
+            border: 2px solid #EFB43E;
+            background-color: #EFB43E;
+          }
+        }
+
+        .owl-prev {
+          position: absolute;
+          left: 150px;
+        }
+
+        .owl-next {
+          position: absolute;
+          right: 150px;
+        }
+
+        @media (max-width: 768px) {
+          .owl-prev {
+            left: 0px;
+            top: -20px;
+          }
+
+          .owl-next {
+            right: 0px;
+            top: -20px;
+          }
+        }
+
+        @media (min-width: 768px) and (max-width: 991.98px) {
+          .owl-prev {
+            left: 50px;
+            top: -20px;
+          }
+
+          .owl-next {
+            right: 50px;
+            top: -20px;
+          }
+        }
+
+        @media (min-width: 992px) and (max-width: 1199.98px) {
+          .owl-prev {
+            left: 80px;
+            top: -20px;
+          }
+
+          .owl-next {
+            right: 80px;
+            top: -20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #workplace {
+    padding: 80px 0;
+  }
+}
+
+
+
+// service part css //
+#service {
+  padding: 100px 0;
+  background-color: #111111;
+
+  .service__items-carousel {
+    top: 45px;
+    right: 0;
+    width: 60%;
+
+    .owl-carousel {
+      .item {
+        .service__item {
+          .service__item-line {
+            left: 20px;
+            bottom: 20px;
+          }
+        }
+      }
+
+      .owl-nav {
+        left: -55.5%;
+        bottom: 45px;
+        position: absolute;
+
+        .owl-next,
+        .owl-prev {
+          width: 50px;
+          height: 50px;
+          margin: 0 10px;
+          color: #ffffff;
+          border-radius: 50%;
+          border: 2px solid #ffffff;
+
+          &:hover {
+            border: 2px solid #EFB43E;
+            background-color: #EFB43E;
+          }
+        }
+      }
+
+      @media (max-width: 768px) {
+        .owl-nav {
+          left: 50%;
+          bottom: auto;
+          top: -105px;
+          transform: translateX(-50%);
+        }
+      }
+
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        .owl-nav {
+          margin: 0;
+          left: -60%;
+          bottom: -56px;
+        }
+      }
+
+      @media (min-width: 1350px) and (max-width: 1450px) {
+        .owl-nav {
+          left: -51%;
+          bottom: -25px;
+        }
+      }
+
+      @media (min-width: 1550px) and (max-width: 1750px) {
+        .owl-nav {
+          left: -48%;
+          bottom: 92px;
+        }
+      }
+
+      @media (min-width: 1750px) and (max-width: 1950px) {
+        .owl-nav {
+          left: -41%;
+          bottom: 75px;
+        }
+      }
+
+      @media (min-width: 1950px) and (max-width: 2050px) {
+
+        .owl-nav {
+          left: -38%;
+          bottom: 100px;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .service__items-carousel {
+      top: auto;
+      bottom: 2px;
+      left: 0;
+      width: 100%;
+      height: 340px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    .service__items-carousel {
+      top: 150px;
+    }
+  }
+
+  @media (min-width: 1950px) and (max-width: 2050px) {
+    .service__items-carousel {
+      top: -11px;
+    }
+  }
+
+  @media (min-width: 1750px) and (max-width: 1950px) {
+    .service__items-carousel {
+      top: 6px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #service {
+    padding-bottom: 400px;
+  }
+}
+
+// Dave Davidson part css //
+#dave__davidson {
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-color: #111111;
+
+  .owl-carousel {
+    right: 125px;
+
+    .owl-nav {
+      top: -35px;
+      right: -204px;
+      position: absolute;
+      transform: translate(-50%, 50%);
+
+      .owl-next,
+      .owl-prev {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px;
+        border-radius: 50%;
+        border: 2px solid #ffffff;
+
+        &:hover {
+          border: 2px solid #EFB43E;
+          background-color: #EFB43E;
+        }
+      }
+    }
+
+    .item {
+      .content__name {
+        width: 25%;
+      }
+
+      .content__text {
+        width: 75%;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+
+  #dave__davidson {
+    padding-bottom: 0;
+
+    .owl-carousel {
+      right: 0;
+
+      .owl-nav {
+        top: -56px;
+        right: -82px;
+      }
+
+      .item {
+        .content__name {
+          width: 100%;
+        }
+
+        .content__text {
+          width: 100%;
+        }
+      }
+    }
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  #dave__davidson {
+    padding-bottom: 0;
+    background-color: #111111;
+
+    .owl-carousel {
+      right: 0;
+
+      .owl-nav {
+        right: -80px;
+      }
+
+      .item {
+        .content__name {
+          width: 22%;
+        }
+
+        .content__text {
+          width: 55%;
+        }
+      }
+    }
+
+  }
+}

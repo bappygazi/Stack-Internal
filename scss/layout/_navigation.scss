@@ -1,0 +1,60 @@
+// navbar part css //
+.navbg {
+  z-index: 9999 !important;
+  background-color: #111111;
+
+  .navbar-brand {
+    img {
+      width: 35% !important;
+    }
+  }
+
+  .navbar-toggler {
+    top: auto !important;
+  }
+}
+
+.navbar {
+  z-index: 9;
+  padding-top: 12px !important;
+  transition: unset linear .5s;
+
+  .navbar-brand {
+    img {
+      width: 100%;
+      transition: all linear .3s;
+    }
+  }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      width: 90%;
+      margin-right: 0;
+      img {
+        width: 75%;
+      }
+    }
+  }
+
+
+
+  .navbar__brand-none {
+    display: none;
+  }
+
+  .navbar-toggler {
+    top: -45px;
+    font-size: 30px;
+    color: #ffffff;
+    position: relative;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .navbar-toggler {
+      top: 0px;
+    }
+  }
+}
